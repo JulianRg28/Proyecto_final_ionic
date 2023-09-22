@@ -1,0 +1,22 @@
+<ion-content>
+  <ion-icon size="large" name="exit-outline" (click)="back()"></ion-icon>
+
+  <ion-card *ngFor="let photo of photos">
+    <img src="{{ photo.image}}" />
+    <div class="date">{{photo.captureDate | date: 'dd/MM/yy'}}</div>
+  </ion-card>
+    
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar slot="buttom">
+        <ion-tab-button (click)="takePicture()">
+          <ion-icon class="tab" size="large" name="camera-outline"></ion-icon>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>

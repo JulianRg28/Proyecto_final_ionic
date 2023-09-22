@@ -1,0 +1,46 @@
+[
+    {
+
+
+        "name": "All",
+        "music2": [
+            {
+                "title": "Helado y Oscuro",
+                "tpo": true,
+                "music":"music/musica/Helado_Oscuro.mp3"
+
+            },
+            {
+                "title": "Hellucination",
+                "tpo": true,
+                "music": "music/musica/Hellucination.mp3"
+
+            },
+            {
+                "title": "Sofa",
+                "tpo": true,
+                "music": "music/musica/Sofa.mp3"
+
+            },
+            {
+                "title": "Swimming Pools",
+                "tpo": true,
+                "music": "music/musica/Swimming_Pools.mp3"
+
+            },
+            {
+                "title": "The Look of Love",
+                "tpo": true,
+                "music": "music/musica/The_Look_of_Love.mp3"
+
+            },
+            {
+                "title": "Toxicity",
+                "tpo": true,
+                "music": "music/musica/Toxicity.mp3"
+
+            }
+
+        ]
+    }
+]
